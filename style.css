@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 0, 140);
+}
+
+.logo span {
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.create-account{
+    color: rgb(255, 0, 140);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 130px;
+    line-height: 1.2;
+    color: white;
+}
+
+.content h1 span{
+    color: fuchsia;
+}
+
+.content p {
+    font-size: 26px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.botoes {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 150px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.download {
+    background-color: rgb(242, 22, 103, 1);
+    color: white;
+}
+
+.trial {
+    background: rgba(65, 0, 147, 1);
+    color: white;
+}
+
+.travis {
+    flex: 1;
+    max-width: 100%;
+}
+
+.travis img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
